@@ -1,5 +1,3 @@
-# model_feedforward.py
-
 import torch
 import torch.nn as nn
 
@@ -21,10 +19,7 @@ class FeedforwardClassifier(nn.Module):
         )
 
     def forward(self, input_ids):
-        """
-        input_ids: [batch_size, seq_len]
-        returns: template_logits, tag_logits
-        """
+
         embeddings = self.embedding(input_ids)  # [batch_size, seq_len, embed_dim]
         pooled = embeddings.mean(dim=1)  # [batch_size, embed_dim]
 

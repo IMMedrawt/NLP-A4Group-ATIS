@@ -1,5 +1,3 @@
-# train_linear.py
-
 import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader
@@ -12,7 +10,7 @@ from utils import pad_batch, EarlyStopping
 def main():
     # Settings
     data_path = "atis.json"
-    split_type = "question-split"  # or "query-split"
+    split_type = "question-split" 
     batch_size = 32
     embed_dim = 100
     lr = 1e-3
@@ -27,7 +25,7 @@ def main():
 
     vocab_size = len(token2id)
     tag_size = len(tag2id)
-    template_size = 200  # You need to scan how many SQL templates there are
+    template_size = 200  # SQL templates
 
     # Create datasets
     train_dataset = ATISDataset(data_path, token2id, tag2id, split_type, mode="train", max_len=max_len)

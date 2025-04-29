@@ -1,5 +1,3 @@
-# model_linear.py
-
 import torch
 import torch.nn as nn
 
@@ -11,10 +9,7 @@ class LinearClassifier(nn.Module):
         self.token_tagger = nn.Linear(embed_dim, tag_size)
 
     def forward(self, input_ids):
-        """
-        input_ids: [batch_size, seq_len]
-        returns: template_logits, tag_logits
-        """
+
         embeddings = self.embedding(input_ids)  # [batch_size, seq_len, embed_dim]
         pooled = embeddings.mean(dim=1)  # [batch_size, embed_dim]
 
