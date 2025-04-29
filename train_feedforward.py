@@ -1,0 +1,68 @@
+# train_feedforward.py
+
+import torch
+import torch.optim as optim
+from torch.utils.data import DataLoader
+
+from dataset import ATISDataset, build_token_vocab, build_tag_vocab
+from models.model_feedforward import FeedforwardClassifier
+from trainer import train_epoch, evaluate
+from utils import pad_batch, EarlyStopping
+
+def main():
+    # Settings
+    data_path = "atis.json"
+    split_type = "question-split"
+    batch_size = 32
+    embed_dim = 100
+    hidden_dim = 128
+    lr = 1e-3
+    max_len = 64
+    num_epochs = 20
+    patience = 3
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    # Build vocabularies
+    token2id = build_token_vocab(data_path)
+    tag2id = build_tag_vocab(data_path)
+
+    vocab_size = len(token2id)
+    tag_size = len(tag2id)
+    template_size = 200  # Adjust based on template ID count
+
+    # Create datasets
+    train_dataset = ATISDataset(data_path, token2id, tag2id, split_type, mode="train", max_len=max_len)
+    dev_dataset = ATISDataset(data_path, token2id, tag2id, split_type, mode="dev", max_len=max_len)
+
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=pad_batch)
+    dev_loader = DataLoader(dev_dataset, batch_size=batch_size, shuffle=False, collate_fn=pad_batch)
+
+    # Initialize model
+    model = FeedforwardClassifier(
+        vocab_size=vocab_size,
+        tag_size=tag_size,
+        template_size=template_size,
+        embed_dim=embed_dim,
+        hidden_dim=hidden_dim
+    )
+    model = model.to(device)
+
+    optimizer = optim.Adam(model.parameters(), lr=lr)
+    early_stopper = EarlyStopping(patience=patience, verbose=True)
+
+    for epoch in range(num_epochs):
+        train_loss = train_epoch(model, train_loader, optimizer, device)
+        template_acc, tag_acc = evaluate(model, dev_loader, device)
+
+        print(f"Epoch {epoch+1}: Train Loss={train_loss:.4f}, Dev Template Acc={template_acc:.4f}, Dev Tag Acc={tag_acc:.4f}")
+
+        early_stopper(train_loss)
+        if early_stopper.early_stop:
+            print("Early stopping triggered!")
+            break
+
+    torch.save(model.state_dict(), "feedforward_model.pth")
+    print("Model saved to feedforward_model.pth")
+
+if __name__ == "__main__":
+    main()
