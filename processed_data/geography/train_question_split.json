@@ -1,0 +1,2198 @@
+[
+  {
+    "question": "what is the biggest city in nebraska",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"nebraska\" ) AND CITYalias0.STATE_NAME = \"nebraska\" ;"
+  },
+  {
+    "question": "what is the biggest city in wyoming",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"wyoming\" ) AND CITYalias0.STATE_NAME = \"wyoming\" ;"
+  },
+  {
+    "question": "what is the largest city in michigan",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"michigan\" ) AND CITYalias0.STATE_NAME = \"michigan\" ;"
+  },
+  {
+    "question": "what is the largest city in texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"texas\" ) AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what cities in texas have the highest number of citizens",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"texas\" ) AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what cities in texas have the highest populations",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"texas\" ) AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the most populous city in texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"texas\" ) AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the largest city in minnesota by population",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"minnesota\" ) AND CITYalias0.STATE_NAME = \"minnesota\" ;"
+  },
+  {
+    "question": "what is the biggest city in texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"texas\" ) AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the largest city in alabama",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"alabama\" ) AND CITYalias0.STATE_NAME = \"alabama\" ;"
+  },
+  {
+    "question": "what is the biggest city in oregon",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"oregon\" ) AND CITYalias0.STATE_NAME = \"oregon\" ;"
+  },
+  {
+    "question": "what is the biggest city in georgia",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"georgia\" ) AND CITYalias0.STATE_NAME = \"georgia\" ;"
+  },
+  {
+    "question": "what is the largest city in wisconsin",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"wisconsin\" ) AND CITYalias0.STATE_NAME = \"wisconsin\" ;"
+  },
+  {
+    "question": "what is the largest city of kansas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"kansas\" ) AND CITYalias0.STATE_NAME = \"kansas\" ;"
+  },
+  {
+    "question": "what is the city in texas with the largest population",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"texas\" ) AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the most populous city in wyoming",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"wyoming\" ) AND CITYalias0.STATE_NAME = \"wyoming\" ;"
+  },
+  {
+    "question": "what is the size of texas",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the area of maryland in square kilometers",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"maryland\" ;"
+  },
+  {
+    "question": "what is the area of maine",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"maine\" ;"
+  },
+  {
+    "question": "what is the size of florida",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"florida\" ;"
+  },
+  {
+    "question": "what is the area of south carolina",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"south carolina\" ;"
+  },
+  {
+    "question": "what is the size of california",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "how big is alaska",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "what is the area of idaho",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"idaho\" ;"
+  },
+  {
+    "question": "what is the area of alaska",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "what is the area of texas",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the area of washington",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"washington\" ;"
+  },
+  {
+    "question": "how big is north dakota",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"north dakota\" ;"
+  },
+  {
+    "question": "how big is massachusetts",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"massachusetts\" ;"
+  },
+  {
+    "question": "what is the area of new mexico",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new mexico\" ;"
+  },
+  {
+    "question": "how many people live in new mexico",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new mexico\" ;"
+  },
+  {
+    "question": "what is the population of new york",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new york\" ;"
+  },
+  {
+    "question": "what is the population of california",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "what is the population of maine",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"maine\" ;"
+  },
+  {
+    "question": "how many people are in the state of nevada",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"nevada\" ;"
+  },
+  {
+    "question": "what can you tell me about the population of missouri",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "what is the population of rhode island",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"rhode island\" ;"
+  },
+  {
+    "question": "how many people are there in new york",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new york\" ;"
+  },
+  {
+    "question": "what is the population of oregon",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"oregon\" ;"
+  },
+  {
+    "question": "what is the population of illinois",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"illinois\" ;"
+  },
+  {
+    "question": "how many people live in south dakota",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"south dakota\" ;"
+  },
+  {
+    "question": "how many people live in hawaii",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"hawaii\" ;"
+  },
+  {
+    "question": "what is the population of idaho",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"idaho\" ;"
+  },
+  {
+    "question": "how many people live in montana",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"montana\" ;"
+  },
+  {
+    "question": "how many people are there in iowa",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"iowa\" ;"
+  },
+  {
+    "question": "how many people live in kansas",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"kansas\" ;"
+  },
+  {
+    "question": "how many people live in california",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "what is the population of montana",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"montana\" ;"
+  },
+  {
+    "question": "how many people live in new hampshire",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new hampshire\" ;"
+  },
+  {
+    "question": "how many people live in new york",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new york\" ;"
+  },
+  {
+    "question": "how many citizens in alabama",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"alabama\" ;"
+  },
+  {
+    "question": "what is the population of arizona",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"arizona\" ;"
+  },
+  {
+    "question": "what is the population of south dakota",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"south dakota\" ;"
+  },
+  {
+    "question": "what is the population of minnesota",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"minnesota\" ;"
+  },
+  {
+    "question": "what is the population of texas",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "how many people stay in utah",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"utah\" ;"
+  },
+  {
+    "question": "how many people live in texas",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "how many citizens live in california",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "what is the state with the lowest population",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MIN( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "give me the cities in virginia",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"virginia\" ;"
+  },
+  {
+    "question": "what cities are located in pennsylvania",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"pennsylvania\" ;"
+  },
+  {
+    "question": "what are the cities in california",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "give me the cities in texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what cities in california",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "give me the cities which are in texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "name the major lakes in michigan",
+    "sql": "SELECT LAKEalias0.LAKE_NAME FROM LAKE AS LAKEalias0 WHERE LAKEalias0.AREA > 750 AND LAKEalias0.STATE_NAME = \"michigan\" ;"
+  },
+  {
+    "question": "list the states",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "give me all the states of usa",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "what states does the missouri river run through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "which states does the missouri river pass through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "what states does the mississippi run through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "which states does the colorado river run through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "what are the states that the potomac run through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"potomac\" ;"
+  },
+  {
+    "question": "which states does the missouri river run through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "which state has the red river",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"red\" ;"
+  },
+  {
+    "question": "what states have rivers named colorado",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "through which states does the mississippi flow",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "which states does the mississippi river run through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "what states are next to the mississippi",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "through which states does the mississippi run",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "what states does the ohio river go through",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"ohio\" ;"
+  },
+  {
+    "question": "what state has the most people",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "which state has the most people",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the most populous state in the us",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state has the highest population",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the biggest river in illinois",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"illinois\" ) AND RIVERalias0.TRAVERSE = \"illinois\" ;"
+  },
+  {
+    "question": "what is the longest river in new york",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"new york\" ) AND RIVERalias0.TRAVERSE = \"new york\" ;"
+  },
+  {
+    "question": "what is the longest river in mississippi",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"mississippi\" ) AND RIVERalias0.TRAVERSE = \"mississippi\" ;"
+  },
+  {
+    "question": "what is the longest river that flows through colorado",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"colorado\" ) AND RIVERalias0.TRAVERSE = \"colorado\" ;"
+  },
+  {
+    "question": "what are the biggest rivers in texas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"texas\" ) AND RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "what is the longest river in california",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"california\" ) AND RIVERalias0.TRAVERSE = \"california\" ;"
+  },
+  {
+    "question": "what is the longest river in pennsylvania",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"pennsylvania\" ) AND RIVERalias0.TRAVERSE = \"pennsylvania\" ;"
+  },
+  {
+    "question": "what is the longest river in texas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"texas\" ) AND RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "how many rivers are in colorado",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"colorado\" ;"
+  },
+  {
+    "question": "how many rivers are there in texas",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "how many rivers run through texas",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "how many rivers are found in colorado",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"colorado\" ;"
+  },
+  {
+    "question": "how many rivers in washington",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"washington\" ;"
+  },
+  {
+    "question": "how many rivers does alaska have",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"alaska\" ;"
+  },
+  {
+    "question": "how many rivers are in missouri",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"missouri\" ;"
+  },
+  {
+    "question": "how many rivers are there in idaho",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"idaho\" ;"
+  },
+  {
+    "question": "what states border missouri",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "what states border ohio",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"ohio\" ;"
+  },
+  {
+    "question": "what states are next to texas",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what states border alaska",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "which states border new york",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"new york\" ;"
+  },
+  {
+    "question": "what states border hawaii",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"hawaii\" ;"
+  },
+  {
+    "question": "what are the neighboring states for michigan",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"michigan\" ;"
+  },
+  {
+    "question": "which state borders florida",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"florida\" ;"
+  },
+  {
+    "question": "what states border georgia",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"georgia\" ;"
+  },
+  {
+    "question": "what states border new hampshire",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"new hampshire\" ;"
+  },
+  {
+    "question": "what states border rhode island",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"rhode island\" ;"
+  },
+  {
+    "question": "which states border texas",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "which states border michigan",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"michigan\" ;"
+  },
+  {
+    "question": "which states border alaska",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "which states border south dakota",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"south dakota\" ;"
+  },
+  {
+    "question": "what states border arkansas",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"arkansas\" ;"
+  },
+  {
+    "question": "which states adjoin alabama",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"alabama\" ;"
+  },
+  {
+    "question": "what states border texas",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what state borders michigan",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"michigan\" ;"
+  },
+  {
+    "question": "which states border colorado",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "states bordering iowa",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"iowa\" ;"
+  },
+  {
+    "question": "which states border alabama",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"alabama\" ;"
+  },
+  {
+    "question": "which state border kentucky",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"kentucky\" ;"
+  },
+  {
+    "question": "what is the adjacent state of california",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "which states border hawaii",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"hawaii\" ;"
+  },
+  {
+    "question": "what states border wisconsin",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"wisconsin\" ;"
+  },
+  {
+    "question": "which states border arizona",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"arizona\" ;"
+  },
+  {
+    "question": "what states border kentucky",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"kentucky\" ;"
+  },
+  {
+    "question": "name all the rivers in colorado",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"colorado\" ;"
+  },
+  {
+    "question": "what rivers flow through colorado",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"colorado\" ;"
+  },
+  {
+    "question": "what rivers run through arizona",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"arizona\" ;"
+  },
+  {
+    "question": "what river flows through kansas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"kansas\" ;"
+  },
+  {
+    "question": "what are the rivers in the state of texas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "what rivers are in new mexico",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"new mexico\" ;"
+  },
+  {
+    "question": "name the rivers in arkansas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"arkansas\" ;"
+  },
+  {
+    "question": "what rivers run through louisiana",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"louisiana\" ;"
+  },
+  {
+    "question": "what rivers run through west virginia",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"west virginia\" ;"
+  },
+  {
+    "question": "what rivers are in nevada",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"nevada\" ;"
+  },
+  {
+    "question": "what rivers run through texas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "what rivers are in utah",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"utah\" ;"
+  },
+  {
+    "question": "what are the rivers in the state of indiana",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"indiana\" ;"
+  },
+  {
+    "question": "what rivers flow through missouri",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"missouri\" ;"
+  },
+  {
+    "question": "what are the rivers of montana",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"montana\" ;"
+  },
+  {
+    "question": "what rivers run through colorado",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"colorado\" ;"
+  },
+  {
+    "question": "which rivers are in alaska",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"alaska\" ;"
+  },
+  {
+    "question": "which rivers flow through alaska",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"alaska\" ;"
+  },
+  {
+    "question": "what is the river that cross over ohio",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"ohio\" ;"
+  },
+  {
+    "question": "what rivers run through maine",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"maine\" ;"
+  },
+  {
+    "question": "what river flows through texas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "what river runs through virginia",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"virginia\" ;"
+  },
+  {
+    "question": "what rivers are in oregon",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"oregon\" ;"
+  },
+  {
+    "question": "what river runs through illinois",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"illinois\" ;"
+  },
+  {
+    "question": "which state is kalamazoo in",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"kalamazoo\" ;"
+  },
+  {
+    "question": "where is austin",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" ;"
+  },
+  {
+    "question": "what states have a city named austin",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" ;"
+  },
+  {
+    "question": "what state is pittsburgh in",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"pittsburgh\" ;"
+  },
+  {
+    "question": "what state has the city flint",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"flint\" ;"
+  },
+  {
+    "question": "what states have towns named springfield",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"springfield\" ;"
+  },
+  {
+    "question": "where is san jose",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"san jose\" ;"
+  },
+  {
+    "question": "where is scotts valley",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"scotts valley\" ;"
+  },
+  {
+    "question": "where is new orleans",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"new orleans\" ;"
+  },
+  {
+    "question": "where is indianapolis",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"indianapolis\" ;"
+  },
+  {
+    "question": "what state is des moines located in",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"des moines\" ;"
+  },
+  {
+    "question": "what states have cities named austin",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" ;"
+  },
+  {
+    "question": "what state is boston in",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boston\" ;"
+  },
+  {
+    "question": "where is fort wayne",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"fort wayne\" ;"
+  },
+  {
+    "question": "where is houston",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"houston\" ;"
+  },
+  {
+    "question": "where is springfield",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"springfield\" ;"
+  },
+  {
+    "question": "where is baton rouge",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"baton rouge\" ;"
+  },
+  {
+    "question": "in which state is rochester",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"rochester\" ;"
+  },
+  {
+    "question": "which state is the city denver located in",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"denver\" ;"
+  },
+  {
+    "question": "what states in the united states have a city of springfield",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"springfield\" ;"
+  },
+  {
+    "question": "what is the population of the largest state",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the population of austin",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" ;"
+  },
+  {
+    "question": "how big is the city of new york",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"new york\" ;"
+  },
+  {
+    "question": "how many people live in san francisco",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"san francisco\" ;"
+  },
+  {
+    "question": "what is the population of sacramento",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"sacramento\" ;"
+  },
+  {
+    "question": "what is the population of denver",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"denver\" ;"
+  },
+  {
+    "question": "what is the population of seattle",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"seattle\" ;"
+  },
+  {
+    "question": "population of boulder",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boulder\" ;"
+  },
+  {
+    "question": "what is the population in boston",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boston\" ;"
+  },
+  {
+    "question": "how many people live in kalamazoo",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"kalamazoo\" ;"
+  },
+  {
+    "question": "people in boulder",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boulder\" ;"
+  },
+  {
+    "question": "how many people in boulder",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boulder\" ;"
+  },
+  {
+    "question": "how many inhabitants does montgomery have",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"montgomery\" ;"
+  },
+  {
+    "question": "how many people live in riverside",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"riverside\" ;"
+  },
+  {
+    "question": "what is the population of atlanta",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"atlanta\" ;"
+  },
+  {
+    "question": "how many people live in austin",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" ;"
+  },
+  {
+    "question": "number of citizens in boulder",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boulder\" ;"
+  },
+  {
+    "question": "how many citizens in boulder",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boulder\" ;"
+  },
+  {
+    "question": "what is the smallest city in hawaii",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MIN( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"hawaii\" ) AND CITYalias0.STATE_NAME = \"hawaii\" ;"
+  },
+  {
+    "question": "what is the smallest city in washington",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MIN( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"washington\" ) AND CITYalias0.STATE_NAME = \"washington\" ;"
+  },
+  {
+    "question": "what is the smallest city in alaska",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MIN( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"alaska\" ) AND CITYalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "which state has the longest river",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what are the states through which the longest river runs",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "which states does the longest river cross",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what is the population density of the smallest state",
+    "sql": "SELECT STATEalias0.DENSITY FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "which states have points that are higher than the highest point in texas",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION > ( SELECT HIGHLOWalias1.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias1 WHERE HIGHLOWalias1.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "what states high point are higher than that of colorado",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION > ( SELECT HIGHLOWalias1.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias1 WHERE HIGHLOWalias1.STATE_NAME = \"colorado\" ) ;"
+  },
+  {
+    "question": "how high is the highest point in montana",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"montana\" ;"
+  },
+  {
+    "question": "what is the highest elevation in south carolina",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"south carolina\" ;"
+  },
+  {
+    "question": "how high is the highest point of louisiana",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"louisiana\" ;"
+  },
+  {
+    "question": "how high is the highest point of delaware",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"delaware\" ;"
+  },
+  {
+    "question": "what is the longest river in america",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "name the longest river in us",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what river is the longest one in the united states",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what is the longest river in the us",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what is the longest river",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what is the longest river in the united states",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what state has the largest city",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "which state has the largest city",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what state has the city with the most population",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what is the biggest state in continental us",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "state the state with the largest area",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the largest state in usa",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the biggest state",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the biggest state in the usa",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "give me the largest state",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the largest state in the us",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the largest state",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what are the high points of states surrounding mississippi",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what state has the sparsest population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MIN( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "which state has the sparsest population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MIN( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state has the least population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MIN( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "which state has the least population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MIN( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state has the smallest population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MIN( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the highest mountain in alaska",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "what is the highest point in wyoming",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"wyoming\" ;"
+  },
+  {
+    "question": "what is the highest point in colorado",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "could you tell me what is the highest point in the state of oregon",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"oregon\" ;"
+  },
+  {
+    "question": "what is the highest point in ohio",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"ohio\" ;"
+  },
+  {
+    "question": "what is the highest point in florida",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"florida\" ;"
+  },
+  {
+    "question": "what is the highest point in rhode island",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"rhode island\" ;"
+  },
+  {
+    "question": "what is the highest mountain in texas",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the highest point in new mexico",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"new mexico\" ;"
+  },
+  {
+    "question": "what is the highest point in kansas",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"kansas\" ;"
+  },
+  {
+    "question": "what is the highest point in texas",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "name the states which have no surrounding states",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME NOT IN ( SELECT BORDER_INFOalias0.STATE_NAME FROM BORDER_INFO AS BORDER_INFOalias0 ) ;"
+  },
+  {
+    "question": "which states border no other states",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME NOT IN ( SELECT BORDER_INFOalias0.STATE_NAME FROM BORDER_INFO AS BORDER_INFOalias0 ) ;"
+  },
+  {
+    "question": "what state borders most other states",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 GROUP BY BORDER_INFOalias0.BORDER HAVING COUNT( 1 ) = ( SELECT MAX( DERIVED_TABLEalias0.DERIVED_FIELDalias0 ) FROM ( SELECT BORDER_INFOalias1.BORDER , COUNT( 1 ) AS DERIVED_FIELDalias0 FROM BORDER_INFO AS BORDER_INFOalias1 GROUP BY BORDER_INFOalias1.BORDER ) AS DERIVED_TABLEalias0 ) ;"
+  },
+  {
+    "question": "how high is guadalupe peak",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_POINT = \"guadalupe peak\" ;"
+  },
+  {
+    "question": "what is the elevation of the highest point in the usa",
+    "sql": "SELECT MAX( HIGHLOWalias0.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias0 ;"
+  },
+  {
+    "question": "what is the height of the highest point in the usa",
+    "sql": "SELECT MAX( HIGHLOWalias0.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias0 ;"
+  },
+  {
+    "question": "how long is the mississippi",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "how long is the mississippi river in miles",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "how long is the mississippi river",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "how long is the rio grande river",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"rio grande\" ;"
+  },
+  {
+    "question": "how long is the missouri river",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "how long is rio grande",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"rio grande\" ;"
+  },
+  {
+    "question": "how many cities does the usa have",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 ;"
+  },
+  {
+    "question": "how many cities are there in the us",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 ;"
+  },
+  {
+    "question": "how many cities are there in usa",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 ;"
+  },
+  {
+    "question": "how many cities are there in us",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 ;"
+  },
+  {
+    "question": "how many major cities are there",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 ;"
+  },
+  {
+    "question": "how many rivers are called colorado",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "what is the population of washington dc",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"washington\" AND CITYalias0.STATE_NAME = \"dc\" ;"
+  },
+  {
+    "question": "how many people live in washington dc",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"washington\" AND CITYalias0.STATE_NAME = \"dc\" ;"
+  },
+  {
+    "question": "what is the population of boston massachusetts",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"boston\" AND CITYalias0.STATE_NAME = \"massachusetts\" ;"
+  },
+  {
+    "question": "what is the population of springfield missouri",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"springfield\" AND CITYalias0.STATE_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "what is the population of springfield south dakota",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"springfield\" AND CITYalias0.STATE_NAME = \"south dakota\" ;"
+  },
+  {
+    "question": "how many people live in austin texas",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the population of portland maine",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"portland\" AND CITYalias0.STATE_NAME = \"maine\" ;"
+  },
+  {
+    "question": "how many people live in spokane washington",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"spokane\" AND CITYalias0.STATE_NAME = \"washington\" ;"
+  },
+  {
+    "question": "what is the population of austin texas",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the population of seattle washington",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"seattle\" AND CITYalias0.STATE_NAME = \"washington\" ;"
+  },
+  {
+    "question": "how large is the largest city in alaska",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"alaska\" ) AND CITYalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "how many people live in the capital of georgia",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = ( SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"georgia\" ) ;"
+  },
+  {
+    "question": "what is the size of the capital of texas",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = ( SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "what is the combined population of all 50 states",
+    "sql": "SELECT SUM( STATEalias0.POPULATION ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "how many states are in the united states",
+    "sql": "SELECT COUNT( STATEalias0.STATE_NAME ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "how many states are there in united states",
+    "sql": "SELECT COUNT( STATEalias0.STATE_NAME ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "how many states border hawaii",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"hawaii\" ;"
+  },
+  {
+    "question": "how many states border tennessee",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"tennessee\" ;"
+  },
+  {
+    "question": "how many states does iowa border",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"iowa\" ;"
+  },
+  {
+    "question": "how many states border alaska",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "how many states does missouri border",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "how many states border texas",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the number of neighboring states for kentucky",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"kentucky\" ;"
+  },
+  {
+    "question": "what major rivers run through illinois",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH > 750 AND RIVERalias0.TRAVERSE = \"illinois\" ;"
+  },
+  {
+    "question": "what is the capital of pennsylvania",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"pennsylvania\" ;"
+  },
+  {
+    "question": "what is the capital of texas",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the capital of maryland",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"maryland\" ;"
+  },
+  {
+    "question": "what is capital of iowa",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"iowa\" ;"
+  },
+  {
+    "question": "what is the capital of vermont",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"vermont\" ;"
+  },
+  {
+    "question": "what is the capital of georgia",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"georgia\" ;"
+  },
+  {
+    "question": "what is the capital of utah",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"utah\" ;"
+  },
+  {
+    "question": "what is the capital of maine",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"maine\" ;"
+  },
+  {
+    "question": "what is the capital of the state texas",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the capital of washington",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"washington\" ;"
+  },
+  {
+    "question": "what is the capital of indiana",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"indiana\" ;"
+  },
+  {
+    "question": "what is the capital of the alabama state",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"alabama\" ;"
+  },
+  {
+    "question": "what is the capital of michigan",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"michigan\" ;"
+  },
+  {
+    "question": "what is the capital of hawaii",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"hawaii\" ;"
+  },
+  {
+    "question": "what is the capital of new hampshire",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new hampshire\" ;"
+  },
+  {
+    "question": "can you tell me the capital of texas",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what are the capital cities of the states which border texas",
+    "sql": "SELECT STATEalias0.CAPITAL FROM BORDER_INFO AS BORDER_INFOalias0 , STATE AS STATEalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" AND STATEalias0.STATE_NAME = BORDER_INFOalias0.BORDER ;"
+  },
+  {
+    "question": "what are the capitals of the states that border texas",
+    "sql": "SELECT STATEalias0.CAPITAL FROM BORDER_INFO AS BORDER_INFOalias0 , STATE AS STATEalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" AND STATEalias0.STATE_NAME = BORDER_INFOalias0.BORDER ;"
+  },
+  {
+    "question": "which capitals are in the states that border texas",
+    "sql": "SELECT STATEalias0.CAPITAL FROM BORDER_INFO AS BORDER_INFOalias0 , STATE AS STATEalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" AND STATEalias0.STATE_NAME = BORDER_INFOalias0.BORDER ;"
+  },
+  {
+    "question": "what are the major cities in texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what are the major cities in oklahoma",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"oklahoma\" ;"
+  },
+  {
+    "question": "show major cities in colorado",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "what are the major cities in new mexico",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"new mexico\" ;"
+  },
+  {
+    "question": "what are the names of the major cities in illinois",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"illinois\" ;"
+  },
+  {
+    "question": "what are the major cities in north carolina",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"north carolina\" ;"
+  },
+  {
+    "question": "what are the major cities in ohio",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"ohio\" ;"
+  },
+  {
+    "question": "what are the major cities of texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what are the major cities in wyoming",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"wyoming\" ;"
+  },
+  {
+    "question": "what are the major cities in california",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "what are the major cities in delaware",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"delaware\" ;"
+  },
+  {
+    "question": "what is the major cities in montana",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"montana\" ;"
+  },
+  {
+    "question": "what are the major cities in rhode island",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"rhode island\" ;"
+  },
+  {
+    "question": "what are the major cities in missouri",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "what are the major cities in kansas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"kansas\" ;"
+  },
+  {
+    "question": "what are the major cities of the united states",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 ;"
+  },
+  {
+    "question": "what are the major cities of the us",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 ;"
+  },
+  {
+    "question": "what are the populations of the states through which the mississippi runs",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what are the populations of states through which the mississippi river runs",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what are the populations of the states through which the mississippi run",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what are the populations of the states through which the mississippi river run",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what are the populations of states through which the mississippi run",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what are the populations of the states through which the mississippi river runs",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what are the populations of all the major cities in montana",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"montana\" ;"
+  },
+  {
+    "question": "what is the population of the major cities in wisconsin",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"wisconsin\" ;"
+  },
+  {
+    "question": "what is the biggest city in the usa",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "whats the largest city",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what city has the largest population",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what is the biggest city in the us",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what is the biggest city in usa",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what is the largest state capital in population",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = CITYalias1.CITY_NAME ) ;"
+  },
+  {
+    "question": "what is the largest capital",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = CITYalias1.CITY_NAME ) ;"
+  },
+  {
+    "question": "what is the most populated capital in the usa",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = CITYalias1.CITY_NAME ) ;"
+  },
+  {
+    "question": "what capital is the largest in the us",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = CITYalias1.CITY_NAME ) ;"
+  },
+  {
+    "question": "what capital has the largest population",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = CITYalias1.CITY_NAME ) ;"
+  },
+  {
+    "question": "what is largest capital",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = CITYalias1.CITY_NAME ) ;"
+  },
+  {
+    "question": "what is the area of all the states combined",
+    "sql": "SELECT SUM( STATEalias0.AREA ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "how many square kilometers in the us",
+    "sql": "SELECT SUM( STATEalias0.AREA ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "what is the total area of the usa",
+    "sql": "SELECT SUM( STATEalias0.AREA ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "what is the population density of south dakota",
+    "sql": "SELECT STATEalias0.DENSITY FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"south dakota\" ;"
+  },
+  {
+    "question": "what is the population density of texas",
+    "sql": "SELECT STATEalias0.DENSITY FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the density of texas",
+    "sql": "SELECT STATEalias0.DENSITY FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the population density of wyoming",
+    "sql": "SELECT STATEalias0.DENSITY FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"wyoming\" ;"
+  },
+  {
+    "question": "what is the tallest mountain in america",
+    "sql": "SELECT MOUNTAINalias0.MOUNTAIN_NAME FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.MOUNTAIN_ALTITUDE = ( SELECT MAX( MOUNTAINalias1.MOUNTAIN_ALTITUDE ) FROM MOUNTAIN AS MOUNTAINalias1 ) ;"
+  },
+  {
+    "question": "what is the tallest mountain in the united states",
+    "sql": "SELECT MOUNTAINalias0.MOUNTAIN_NAME FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.MOUNTAIN_ALTITUDE = ( SELECT MAX( MOUNTAINalias1.MOUNTAIN_ALTITUDE ) FROM MOUNTAIN AS MOUNTAINalias1 ) ;"
+  },
+  {
+    "question": "what is the highest point in the state with capital des moines",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"des moines\" ) ;"
+  },
+  {
+    "question": "what is the highest point in the state with the capital des moines",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"des moines\" ) ;"
+  },
+  {
+    "question": "what is the highest point in the country",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the highest point in the us",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the highest point in the united states",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the biggest city in the smallest state",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ) AND CITYalias0.STATE_NAME IN ( SELECT STATEalias2.STATE_NAME FROM STATE AS STATEalias2 WHERE STATEalias2.AREA = ( SELECT MIN( STATEalias3.AREA ) FROM STATE AS STATEalias3 ) ) ;"
+  },
+  {
+    "question": "what is the largest state bordering texas",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ORDER BY STATEalias0.AREA DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what state that borders texas is the largest",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ORDER BY STATEalias0.AREA DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what is the largest state that borders california",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"california\" ) ORDER BY STATEalias0.AREA DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what is the length of the river that traverses the most states",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = ( SELECT RIVER_NAME FROM ( SELECT COUNT( 1 ) AS DERIVED_FIELDalias0 , RIVERalias1.RIVER_NAME FROM RIVER AS RIVERalias1 GROUP BY RIVERalias1.RIVER_NAME ) AS DERIVED_TABLEalias0 WHERE DERIVED_TABLEalias0.DERIVED_FIELDalias0 = ( SELECT MAX( DERIVED_TABLEalias1.DERIVED_FIELDalias1 ) FROM ( SELECT COUNT( 1 ) AS DERIVED_FIELDalias1 , RIVERalias2.RIVER_NAME FROM RIVER AS RIVERalias2 GROUP BY RIVERalias2.RIVER_NAME ) AS DERIVED_TABLEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the length of the river that runs through the most number of states",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = ( SELECT RIVER_NAME FROM ( SELECT COUNT( 1 ) AS DERIVED_FIELDalias0 , RIVERalias1.RIVER_NAME FROM RIVER AS RIVERalias1 GROUP BY RIVERalias1.RIVER_NAME ) AS DERIVED_TABLEalias0 WHERE DERIVED_TABLEalias0.DERIVED_FIELDalias0 = ( SELECT MAX( DERIVED_TABLEalias1.DERIVED_FIELDalias1 ) FROM ( SELECT COUNT( 1 ) AS DERIVED_FIELDalias1 , RIVERalias2.RIVER_NAME FROM RIVER AS RIVERalias2 GROUP BY RIVERalias2.RIVER_NAME ) AS DERIVED_TABLEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the longest river that runs through a state that borders tennessee",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM BORDER_INFO AS BORDER_INFOalias0 , RIVER AS RIVERalias0 WHERE BORDER_INFOalias0.BORDER = \"tennessee\" AND RIVERalias0.TRAVERSE = BORDER_INFOalias0.STATE_NAME ORDER BY RIVERalias0.LENGTH DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what is the lowest point in wisconsin",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"wisconsin\" ;"
+  },
+  {
+    "question": "what is the lowest point in oregon",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"oregon\" ;"
+  },
+  {
+    "question": "what is the lowest point in louisiana",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"louisiana\" ;"
+  },
+  {
+    "question": "what is the lowest point in california",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"california\" ;"
+  },
+  {
+    "question": "what is the lowest point in the state of texas",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the lowest point in texas",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the lowest point of colorado",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "where is the lowest spot in iowa",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"iowa\" ;"
+  },
+  {
+    "question": "what is the lowest point in the united states",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "where is the lowest point in the us",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the lowest point of the us",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "which is the lowest point of the states that the mississippi runs through",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ORDER BY HIGHLOWalias0.LOWEST_ELEVATION LIMIT 1 ;"
+  },
+  {
+    "question": "which state has the greatest density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state has the highest population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state has the greatest population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state has the largest population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the state with the largest density in usa",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the state with the largest population density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "which state has the largest density",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state which the mississippi runs through has the largest population",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ORDER BY STATEalias0.POPULATION DESC LIMIT 1 ;"
+  },
+  {
+    "question": "how many people live in the state with the largest population density",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.DENSITY = ( SELECT MAX( STATEalias1.DENSITY ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what city has the least population",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MIN( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what is the city with the smallest population",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MIN( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 ) ;"
+  },
+  {
+    "question": "what is the smallest state that borders texas",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ) AND STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "what is the smallest state bordering ohio",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"ohio\" ) ) AND STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"ohio\" ) ;"
+  },
+  {
+    "question": "which state has the smallest area that borders texas",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ) AND STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "what is the smallest state in the usa",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the smallest state by area",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what state has the smallest area",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what river traverses the most states",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 GROUP BY ( RIVERalias0.RIVER_NAME ) ORDER BY COUNT( DISTINCT RIVERalias0.TRAVERSE ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "which river runs through the most states",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 GROUP BY ( RIVERalias0.RIVER_NAME ) ORDER BY COUNT( DISTINCT RIVERalias0.TRAVERSE ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what river runs through the most states",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 GROUP BY ( RIVERalias0.RIVER_NAME ) ORDER BY COUNT( DISTINCT RIVERalias0.TRAVERSE ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "which rivers run through states bordering new mexico",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"new mexico\" ) ;"
+  },
+  {
+    "question": "what rivers flow through states that alabama borders",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"alabama\" ) ;"
+  },
+  {
+    "question": "what state that borders texas has the highest population",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ORDER BY STATEalias0.POPULATION DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what is the most populated state bordering oklahoma",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"oklahoma\" ) ORDER BY STATEalias0.POPULATION DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what states border states that border colorado",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"colorado\" ) ;"
+  },
+  {
+    "question": "what states border states that the mississippi runs through",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "which states border states through which the mississippi traverses",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what states border states which the mississippi runs through",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what are the states that border the state with the greatest population",
+    "sql": "SELECT BORDER_INFOalias0.STATE_NAME FROM BORDER_INFO AS BORDER_INFOalias0 , STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) AND STATEalias0.STATE_NAME = BORDER_INFOalias0.BORDER ;"
+  },
+  {
+    "question": "what states border the states with the most cities",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT DERIVED_TABLEalias0.STATE_NAME FROM ( SELECT CITYalias0.STATE_NAME , COUNT( 1 ) AS DERIVED_FIELDalias0 FROM CITY AS CITYalias0 GROUP BY CITYalias0.STATE_NAME ) AS DERIVED_TABLEalias0 WHERE DERIVED_TABLEalias0.DERIVED_FIELDalias0 = ( SELECT MAX( DERIVED_TABLEalias1.DERIVED_FIELDalias1 ) FROM ( SELECT COUNT( 1 ) AS DERIVED_FIELDalias1 FROM CITY AS CITYalias1 GROUP BY CITYalias1.STATE_NAME ) AS DERIVED_TABLEalias1 ) ) ;"
+  },
+  {
+    "question": "which state has the highest peak in the country",
+    "sql": "SELECT MOUNTAINalias0.STATE_NAME FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.MOUNTAIN_ALTITUDE = ( SELECT MAX( MOUNTAINalias1.MOUNTAIN_ALTITUDE ) FROM MOUNTAIN AS MOUNTAINalias1 ) ;"
+  },
+  {
+    "question": "what rivers do not run through tennessee",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME NOT IN ( SELECT RIVERalias1.RIVER_NAME FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE = \"tennessee\" ) ;"
+  },
+  {
+    "question": "what rivers run through the states that border the state with the capital atlanta",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"atlanta\" ) ) ;"
+  },
+  {
+    "question": "what state has the highest elevation",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "in which state does the highest point in usa exist",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what state has highest elevation",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the state with the highest elevation in the united states",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the state that contains the highest point",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what state contains the highest point in the us",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the name of the state with the lowest point",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what is the state with the lowest point",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ;"
+  },
+  {
+    "question": "what state has the most major rivers running through it",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH > 750 GROUP BY RIVERalias0.TRAVERSE ORDER BY COUNT( RIVERalias0.RIVER_NAME ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "in what state is mount mckinley",
+    "sql": "SELECT MOUNTAINalias0.STATE_NAME FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.MOUNTAIN_NAME = \"mckinley\" ;"
+  },
+  {
+    "question": "where is mount whitney",
+    "sql": "SELECT MOUNTAINalias0.STATE_NAME FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.MOUNTAIN_NAME = \"whitney\" ;"
+  },
+  {
+    "question": "where is mount whitney located",
+    "sql": "SELECT MOUNTAINalias0.STATE_NAME FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.MOUNTAIN_NAME = \"whitney\" ;"
+  },
+  {
+    "question": "what states have rivers running through them",
+    "sql": "SELECT DISTINCT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 ;"
+  },
+  {
+    "question": "which states have a major city named austin",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" AND CITYalias0.POPULATION > 150000 ;"
+  },
+  {
+    "question": "what is the largest city in a state that borders texas",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ) AND CITYalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "what is the largest city in states that border california",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"california\" ) ) AND CITYalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"california\" ) ;"
+  },
+  {
+    "question": "how many rivers do not traverse the state with the capital albany",
+    "sql": "SELECT COUNT( DISTINCT RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME NOT IN ( SELECT RIVERalias1.RIVER_NAME FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"albany\" ) ) ;"
+  },
+  {
+    "question": "what is the shortest river in iowa",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"iowa\" ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what is the shortest river in nebraska",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"nebraska\" ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what is the shortest river in alaska",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"alaska\" ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what is the shortest river in texas",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE = \"texas\" ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what are the major cities in the smallest state in the us",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the population of the capital of the largest state through which the mississippi runs",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = ( SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM RIVER AS RIVERalias0 , STATE AS STATEalias1 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" AND STATEalias1.STATE_NAME = RIVERalias0.TRAVERSE ) ) ;"
+  },
+  {
+    "question": "what is the shortest river in the usa",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what is the shortest river",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what is the shortest river in the us",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what is the shortest river in the united states",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "which is the shortest river",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 ORDER BY RIVERalias0.LENGTH LIMIT 1 ;"
+  },
+  {
+    "question": "what is the capital of the state that borders the state that borders texas",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"texas\" ) ) ;"
+  },
+  {
+    "question": "what is the smallest city of the smallest state in the us",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MIN( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ) AND CITYalias0.STATE_NAME IN ( SELECT STATEalias2.STATE_NAME FROM STATE AS STATEalias2 WHERE STATEalias2.AREA = ( SELECT MIN( STATEalias3.AREA ) FROM STATE AS STATEalias3 ) ) ;"
+  },
+  {
+    "question": "how many rivers are in the state with the largest population",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 , STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = ( SELECT STATEalias1.STATE_NAME FROM STATE AS STATEalias1 WHERE STATEalias1.POPULATION = ( SELECT MAX( STATEalias2.POPULATION ) FROM STATE AS STATEalias2 ) ) AND STATEalias0.STATE_NAME = RIVERalias0.TRAVERSE ;"
+  },
+  {
+    "question": "what is the largest state that borders the state with the lowest point in the usa",
+    "sql": "SELECT BORDER_INFOalias0.STATE_NAME FROM BORDER_INFO AS BORDER_INFOalias0 , HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE ( HIGHLOWalias0.STATE_NAME = BORDER_INFOalias0.BORDER ) AND ( STATEalias0.STATE_NAME = BORDER_INFOalias0.BORDER ) AND HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ORDER BY STATEalias0.AREA DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what is the population of the largest state that borders texas",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ) AND STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "what state is austin the capital of",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"austin\" ;"
+  },
+  {
+    "question": "what states capital is dover",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"dover\" ;"
+  },
+  {
+    "question": "sacramento is the capital of which state",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"sacramento\" ;"
+  },
+  {
+    "question": "what state is columbus the capital of",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"columbus\" ;"
+  },
+  {
+    "question": "what state has the capital salem",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"salem\" ;"
+  },
+  {
+    "question": "what rivers flow through the state with the largest population",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the largest state that borders the state with the highest population",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.STATE_NAME FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.BORDER IN ( SELECT STATEalias2.STATE_NAME FROM STATE AS STATEalias2 WHERE STATEalias2.POPULATION = ( SELECT MAX( STATEalias3.POPULATION ) FROM STATE AS STATEalias3 ) ) ) ) AND STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.STATE_NAME FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.BORDER IN ( SELECT STATEalias4.STATE_NAME FROM STATE AS STATEalias4 WHERE STATEalias4.POPULATION = ( SELECT MAX( STATEalias5.POPULATION ) FROM STATE AS STATEalias5 ) ) ) ;"
+  },
+  {
+    "question": "what is the capital of the state with the highest point",
+    "sql": "SELECT STATEalias0.CAPITAL FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) AND STATEalias0.STATE_NAME = HIGHLOWalias0.STATE_NAME ;"
+  },
+  {
+    "question": "what is the capital of the state with the highest elevation",
+    "sql": "SELECT STATEalias0.CAPITAL FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) AND STATEalias0.STATE_NAME = HIGHLOWalias0.STATE_NAME ;"
+  },
+  {
+    "question": "how many rivers are there in us",
+    "sql": "SELECT COUNT( DISTINCT RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 ;"
+  },
+  {
+    "question": "name the 50 capitals in the usa",
+    "sql": "SELECT DISTINCT STATEalias0.CAPITAL FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "how many states have a city named springfield",
+    "sql": "SELECT COUNT( CITYalias0.STATE_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"springfield\" ;"
+  },
+  {
+    "question": "how many states have a city called rochester",
+    "sql": "SELECT COUNT( CITYalias0.STATE_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"rochester\" ;"
+  },
+  {
+    "question": "how many states have cities named austin",
+    "sql": "SELECT COUNT( CITYalias0.STATE_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" ;"
+  },
+  {
+    "question": "how many states have cities or towns named springfield",
+    "sql": "SELECT COUNT( CITYalias0.STATE_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"springfield\" ;"
+  },
+  {
+    "question": "what state borders the state with the smallest population",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MIN( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what state is the state with the most rivers",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 GROUP BY RIVERalias0.TRAVERSE ORDER BY COUNT( RIVERalias0.RIVER_NAME ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "which state contains most rivers",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 GROUP BY RIVERalias0.TRAVERSE ORDER BY COUNT( RIVERalias0.RIVER_NAME ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "which state has the most rivers running through it",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 GROUP BY RIVERalias0.TRAVERSE ORDER BY COUNT( RIVERalias0.RIVER_NAME ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what state has the most rivers running through it",
+    "sql": "SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 GROUP BY RIVERalias0.TRAVERSE ORDER BY COUNT( RIVERalias0.RIVER_NAME ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what are the lakes in states bordering texas",
+    "sql": "SELECT LAKEalias0.LAKE_NAME FROM LAKE AS LAKEalias0 WHERE LAKEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "how many major cities are in florida",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"florida\" ;"
+  },
+  {
+    "question": "how many major cities are in arizona",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"arizona\" ;"
+  },
+  {
+    "question": "how many big cities are in pennsylvania",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"pennsylvania\" ;"
+  },
+  {
+    "question": "how many major cities are there in oregon",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"oregon\" ;"
+  },
+  {
+    "question": "how many major cities are in texas",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "how high are the highest points of all the states",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 ;"
+  },
+  {
+    "question": "how many states does the mississippi run through",
+    "sql": "SELECT COUNT( RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "how many states does the colorado river flow through",
+    "sql": "SELECT COUNT( RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "how many states does the colorado river run through",
+    "sql": "SELECT COUNT( RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "how many states does the mississippi river run through",
+    "sql": "SELECT COUNT( RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ;"
+  },
+  {
+    "question": "how many states does the missouri river run through",
+    "sql": "SELECT COUNT( RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"missouri\" ;"
+  },
+  {
+    "question": "what is the longest river in the smallest state in the usa",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.TRAVERSE IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ) AND RIVERalias0.TRAVERSE IN ( SELECT STATEalias2.STATE_NAME FROM STATE AS STATEalias2 WHERE STATEalias2.AREA = ( SELECT MIN( STATEalias3.AREA ) FROM STATE AS STATEalias3 ) ) ;"
+  },
+  {
+    "question": "what is the average population per square km in pennsylvania",
+    "sql": "SELECT STATEalias0.POPULATION / STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"pennsylvania\" ;"
+  },
+  {
+    "question": "what states border states that border states that border florida",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME IN ( SELECT BORDER_INFOalias2.BORDER FROM BORDER_INFO AS BORDER_INFOalias2 WHERE BORDER_INFOalias2.STATE_NAME = \"florida\" ) ) ;"
+  },
+  {
+    "question": "how many states border at least one other state",
+    "sql": "SELECT COUNT( DISTINCT BORDER_INFOalias0.STATE_NAME ) FROM BORDER_INFO AS BORDER_INFOalias0 ;"
+  },
+  {
+    "question": "what is the height of the highest mountain in texas",
+    "sql": "SELECT MAX( DISTINCT HIGHLOWalias0.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "how many states border colorado and border new mexico",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.BORDER IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"new mexico\" ) AND BORDER_INFOalias0.STATE_NAME = \"colorado\" ;"
+  },
+  {
+    "question": "how many major cities are in states bordering utah",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"utah\" ) ;"
+  },
+  {
+    "question": "how many major cities are in states bordering nebraska",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"nebraska\" ) ;"
+  },
+  {
+    "question": "what is the total population of the states that border texas",
+    "sql": "SELECT SUM( STATEalias0.POPULATION ) FROM BORDER_INFO AS BORDER_INFOalias0 , STATE AS STATEalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" AND STATEalias0.STATE_NAME = BORDER_INFOalias0.BORDER ;"
+  },
+  {
+    "question": "what are the major lakes in united states ",
+    "sql": "SELECT LAKEalias0.LAKE_NAME FROM LAKE AS LAKEalias0 WHERE LAKEalias0.AREA > 750 ;"
+  },
+  {
+    "question": "show me all the major lakes in the us ",
+    "sql": "SELECT LAKEalias0.LAKE_NAME FROM LAKE AS LAKEalias0 WHERE LAKEalias0.AREA > 750 ;"
+  },
+  {
+    "question": "name all the lakes of us",
+    "sql": "SELECT LAKEalias0.LAKE_NAME FROM LAKE AS LAKEalias0 ;"
+  },
+  {
+    "question": "how many major rivers cross ohio",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH > 750 AND RIVERalias0.TRAVERSE = \"ohio\" ;"
+  },
+  {
+    "question": "what state has the shortest river",
+    "sql": "SELECT DISTINCT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MIN( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what states does the shortest river run through",
+    "sql": "SELECT DISTINCT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MIN( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "how many states are next to major rivers",
+    "sql": "SELECT COUNT( DISTINCT RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH > 750 ;"
+  },
+  {
+    "question": "what state borders the least states excluding alaska and excluding hawaii",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 LEFT OUTER JOIN BORDER_INFO AS BORDER_INFOalias0 ON STATEalias0.STATE_NAME = BORDER_INFOalias0.STATE_NAME WHERE STATEalias0.STATE_NAME <> \"alaska\" AND STATEalias0.STATE_NAME <> \"hawaii\" GROUP BY STATEalias0.STATE_NAME HAVING COUNT( BORDER_INFOalias0.BORDER ) = ( SELECT MIN( DERIVED_TABLEalias0.DERIVED_FIELDalias0 ) FROM ( SELECT COUNT( BORDER_INFOalias1.BORDER ) AS DERIVED_FIELDalias0 , STATEalias1.STATE_NAME FROM STATE AS STATEalias1 LEFT OUTER JOIN BORDER_INFO AS BORDER_INFOalias1 ON STATEalias1.STATE_NAME = BORDER_INFOalias1.STATE_NAME WHERE STATEalias1.STATE_NAME <> \"alaska\" AND STATEalias1.STATE_NAME <> \"hawaii\" GROUP BY STATEalias1.STATE_NAME ) AS DERIVED_TABLEalias0 ) ;"
+  },
+  {
+    "question": "what is the highest point in the smallest state",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) AND STATEalias0.STATE_NAME = HIGHLOWalias0.STATE_NAME ;"
+  },
+  {
+    "question": "what is the height of mount mckinley",
+    "sql": "SELECT MOUNTAINalias0.MOUNTAIN_ALTITUDE FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.MOUNTAIN_NAME = \"mckinley\" ;"
+  },
+  {
+    "question": "what is the highest point in the state with the smallest population",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = HIGHLOWalias0.STATE_NAME AND STATEalias0.STATE_NAME IN ( SELECT STATEalias1.STATE_NAME FROM STATE AS STATEalias1 WHERE STATEalias1.POPULATION = ( SELECT MIN( STATEalias2.POPULATION ) FROM STATE AS STATEalias2 ) ) ;"
+  },
+  {
+    "question": "which rivers run through the state with the lowest elevation in the usa",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ) ;"
+  },
+  {
+    "question": "what rivers run through the state with the lowest point in the usa",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) ) ;"
+  },
+  {
+    "question": "what mountains are in alaska",
+    "sql": "SELECT MOUNTAINalias0.MOUNTAIN_NAME FROM MOUNTAIN AS MOUNTAINalias0 WHERE MOUNTAINalias0.STATE_NAME = \"alaska\" ;"
+  },
+  {
+    "question": "how many states have major rivers",
+    "sql": "SELECT COUNT( DISTINCT RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH > 750 ;"
+  },
+  {
+    "question": "what is the smallest state through which the longest river runs",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ) ) AND STATEalias0.STATE_NAME IN ( SELECT RIVERalias2.TRAVERSE FROM RIVER AS RIVERalias2 WHERE RIVERalias2.LENGTH = ( SELECT MAX( RIVERalias3.LENGTH ) FROM RIVER AS RIVERalias3 ) ) ;"
+  },
+  {
+    "question": "what is the largest state traversed by the mississippi river",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ) AND STATEalias0.STATE_NAME IN ( SELECT RIVERalias1.TRAVERSE FROM RIVER AS RIVERalias1 WHERE RIVERalias1.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what is the largest of the state that the rio grande runs through",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"rio grande\" ) ) AND STATEalias0.STATE_NAME IN ( SELECT RIVERalias1.TRAVERSE FROM RIVER AS RIVERalias1 WHERE RIVERalias1.RIVER_NAME = \"rio grande\" ) ;"
+  },
+  {
+    "question": "how many rivers run through the states bordering colorado",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"colorado\" ) ;"
+  },
+  {
+    "question": "what is the longest river that does not run through texas",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 WHERE RIVERalias1.RIVER_NAME NOT IN ( SELECT RIVERalias2.RIVER_NAME FROM RIVER AS RIVERalias2 WHERE RIVERalias2.TRAVERSE = \"texas\" ) ) AND RIVERalias0.RIVER_NAME NOT IN ( SELECT RIVERalias3.RIVER_NAME FROM RIVER AS RIVERalias3 WHERE RIVERalias3.TRAVERSE = \"texas\" ) ;"
+  },
+  {
+    "question": "what are the largest cities in the states that border the largest state",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION IN ( SELECT DERIVED_TABLEalias1.DERIVED_FIELDalias0 FROM ( SELECT MAX( CITYalias1.POPULATION ) AS DERIVED_FIELDalias0 , STATEalias0.STATE_NAME FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = CITYalias1.STATE_NAME AND STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 GROUP BY BORDER_INFOalias0.BORDER HAVING COUNT( 1 ) = ( SELECT MAX( DERIVED_TABLEalias0.DERIVED_FIELDalias1 ) FROM ( SELECT BORDER_INFOalias1.BORDER , COUNT( 1 ) AS DERIVED_FIELDalias1 FROM BORDER_INFO AS BORDER_INFOalias1 GROUP BY BORDER_INFOalias1.BORDER ) AS DERIVED_TABLEalias0 ) ) GROUP BY STATEalias0.STATE_NAME ) AS DERIVED_TABLEalias1 ) ;"
+  },
+  {
+    "question": "what state has no rivers",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME NOT IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 ) ;"
+  },
+  {
+    "question": "how many rivers are in the state with the highest point",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM HIGHLOW AS HIGHLOWalias0 , RIVER AS RIVERalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) AND RIVERalias0.TRAVERSE = HIGHLOWalias0.STATE_NAME ;"
+  },
+  {
+    "question": "what state has the most cities",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 GROUP BY CITYalias0.STATE_NAME ORDER BY COUNT( 1 ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what is the capital of the largest state",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "what is the capital city of the largest state in the us",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "how many cities are in montana",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"montana\" ;"
+  },
+  {
+    "question": "how many cities are in louisiana",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"louisiana\" ;"
+  },
+  {
+    "question": "how many cities does texas have",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "what is the highest point in the state with the most rivers",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 WHERE ( HIGHLOWalias0.STATE_NAME = ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 , STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = RIVERalias0.TRAVERSE GROUP BY STATEalias0.STATE_NAME ORDER BY COUNT( RIVERalias0.RIVER_NAME ) DESC LIMIT 1 ) ) ;"
+  },
+  {
+    "question": "what is the area of the states",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "how many states in the us does the shortest river run through",
+    "sql": "SELECT COUNT( RIVERalias0.TRAVERSE ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MIN( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what is the average population per square km in the us",
+    "sql": "SELECT SUM( STATEalias0.POPULATION ) / SUM( STATEalias0.AREA ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "what rivers flow through states that border the state with the largest population",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ) ) ;"
+  },
+  {
+    "question": "what are the major cities in the largest state",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME = ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the area of the smallest state",
+    "sql": "SELECT STATEalias0.AREA FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "which states border the longest river in the usa",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MAX( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ) ;"
+  },
+  {
+    "question": "what is the population density of the state with the smallest population",
+    "sql": "SELECT STATEalias0.DENSITY FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MIN( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ;"
+  },
+  {
+    "question": "how many states border the mississippi river",
+    "sql": "SELECT COUNT( DISTINCT BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"mississippi\" ) ;"
+  },
+  {
+    "question": "what states have a capital that is the highest point in the state",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = HIGHLOWalias0.HIGHEST_POINT ;"
+  },
+  {
+    "question": "what is the population of the capital of the smallest state",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = ( SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MIN( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the population of the capital of the largest state",
+    "sql": "SELECT CITYalias0.POPULATION FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = ( SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the lowest point of the state with the largest area",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_POINT FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = HIGHLOWalias0.STATE_NAME AND STATEalias0.STATE_NAME IN ( SELECT STATEalias1.STATE_NAME FROM STATE AS STATEalias1 WHERE STATEalias1.AREA = ( SELECT MAX( STATEalias2.AREA ) FROM STATE AS STATEalias2 ) ) ;"
+  },
+  {
+    "question": "what state has the smallest capital",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MIN( DERIVED_TABLEalias0.POPULATION ) FROM ( SELECT CITYalias1.POPULATION FROM CITY AS CITYalias1 , STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = CITYalias1.CITY_NAME ) AS DERIVED_TABLEalias0 ) ;"
+  },
+  {
+    "question": "what states border states that border the state with the largest population",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 , BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.BORDER = BORDER_INFOalias0.STATE_NAME AND BORDER_INFOalias1.STATE_NAME IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what is the capital of the state that borders the most states",
+    "sql": "SELECT STATEalias0.CAPITAL FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 GROUP BY BORDER_INFOalias0.BORDER HAVING COUNT( 1 ) = ( SELECT MAX( DERIVED_TABLEalias0.DERIVED_FIELDalias0 ) FROM ( SELECT BORDER_INFOalias1.BORDER , COUNT( 1 ) AS DERIVED_FIELDalias0 FROM BORDER_INFO AS BORDER_INFOalias1 GROUP BY BORDER_INFOalias1.BORDER ) AS DERIVED_TABLEalias0 ) ) ;"
+  },
+  {
+    "question": "what is the size of the largest state in the usa",
+    "sql": "SELECT MAX( STATEalias0.AREA ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "what is the area of the largest state",
+    "sql": "SELECT MAX( STATEalias0.AREA ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "of the states washed by the mississippi river which has the lowest point",
+    "sql": "SELECT HIGHLOWalias0.STATE_NAME FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_ELEVATION = ( SELECT MIN( HIGHLOWalias1.LOWEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 , RIVER AS RIVERalias0 WHERE ( RIVERalias0.RIVER_NAME = \"mississippi\" ) AND ( RIVERalias0.TRAVERSE = HIGHLOWalias1.STATE_NAME ) ) ;"
+  },
+  {
+    "question": "how many rivers in texas are longer than the red",
+    "sql": "SELECT COUNT( RIVERalias0.RIVER_NAME ) FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH > ALL ( SELECT RIVERalias1.LENGTH FROM RIVER AS RIVERalias1 WHERE RIVERalias1.RIVER_NAME = \"red\" ) AND RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "which capitals are not major cities",
+    "sql": "SELECT STATEalias0.CAPITAL FROM CITY AS CITYalias0 , STATE AS STATEalias0 WHERE CITYalias0.POPULATION <= 150000 AND STATEalias0.CAPITAL = CITYalias0.CITY_NAME ;"
+  },
+  {
+    "question": "how high is the highest point in the largest state",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) AND STATEalias0.STATE_NAME = HIGHLOWalias0.STATE_NAME ;"
+  },
+  {
+    "question": "give me the cities in usa",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 ;"
+  },
+  {
+    "question": "what is the highest point of the state with the largest area",
+    "sql": "SELECT HIGHLOWalias0.HIGHEST_POINT FROM HIGHLOW AS HIGHLOWalias0 , STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = HIGHLOWalias0.STATE_NAME AND STATEalias0.STATE_NAME IN ( SELECT STATEalias1.STATE_NAME FROM STATE AS STATEalias1 WHERE STATEalias1.AREA = ( SELECT MAX( STATEalias2.AREA ) FROM STATE AS STATEalias2 ) ) ;"
+  },
+  {
+    "question": "where is new hampshire",
+    "sql": "SELECT STATEalias0.COUNTRY_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"new hampshire\" ;"
+  },
+  {
+    "question": "where is massachusetts",
+    "sql": "SELECT STATEalias0.COUNTRY_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME = \"massachusetts\" ;"
+  },
+  {
+    "question": "what state has the largest urban population",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 GROUP BY CITYalias0.STATE_NAME ORDER BY SUM( CITYalias0.POPULATION ) DESC LIMIT 1 ;"
+  },
+  {
+    "question": "what state borders the least states",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 LEFT OUTER JOIN BORDER_INFO AS BORDER_INFOalias0 ON STATEalias0.STATE_NAME = BORDER_INFOalias0.STATE_NAME GROUP BY STATEalias0.STATE_NAME HAVING COUNT( BORDER_INFOalias0.BORDER ) = ( SELECT MIN( DERIVED_TABLEalias0.DERIVED_FIELDalias0 ) FROM ( SELECT COUNT( BORDER_INFOalias1.BORDER ) AS DERIVED_FIELDalias0 , STATEalias1.STATE_NAME FROM STATE AS STATEalias1 LEFT OUTER JOIN BORDER_INFO AS BORDER_INFOalias1 ON STATEalias1.STATE_NAME = BORDER_INFOalias1.STATE_NAME GROUP BY STATEalias1.STATE_NAME ) AS DERIVED_TABLEalias0 ) ;"
+  },
+  {
+    "question": "what are the major rivers in the us",
+    "sql": "SELECT DISTINCT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH > 750 ;"
+  },
+  {
+    "question": "how many cities named austin are there in the usa",
+    "sql": "SELECT COUNT( CITYalias0.CITY_NAME ) FROM CITY AS CITYalias0 WHERE CITYalias0.CITY_NAME = \"austin\" ;"
+  },
+  {
+    "question": "how many people live in the smallest state bordering wyoming",
+    "sql": "SELECT STATEalias0.POPULATION FROM STATE AS STATEalias0 WHERE STATEalias0.POPULATION = ( SELECT MAX( STATEalias1.POPULATION ) FROM STATE AS STATEalias1 WHERE STATEalias1.STATE_NAME IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"wyoming\" ) ) AND STATEalias0.STATE_NAME IN ( SELECT BORDER_INFOalias1.BORDER FROM BORDER_INFO AS BORDER_INFOalias1 WHERE BORDER_INFOalias1.STATE_NAME = \"wyoming\" ) ;"
+  },
+  {
+    "question": "what is the length of the colorado river in texas",
+    "sql": "SELECT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME = \"colorado\" AND RIVERalias0.TRAVERSE = \"texas\" ;"
+  },
+  {
+    "question": "what is the population density in the state with capital austin",
+    "sql": "SELECT STATEalias0.DENSITY FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"austin\" ;"
+  },
+  {
+    "question": "how long is the shortest river in the usa",
+    "sql": "SELECT DISTINCT RIVERalias0.LENGTH FROM RIVER AS RIVERalias0 WHERE RIVERalias0.LENGTH = ( SELECT MIN( RIVERalias1.LENGTH ) FROM RIVER AS RIVERalias1 ) ;"
+  },
+  {
+    "question": "what is the elevation of death valley",
+    "sql": "SELECT HIGHLOWalias0.LOWEST_ELEVATION FROM HIGHLOW AS HIGHLOWalias0 WHERE HIGHLOWalias0.LOWEST_POINT = \"death valley\" ;"
+  },
+  {
+    "question": "what is the average population of the us by state",
+    "sql": "SELECT AVG ( STATEalias0.POPULATION ) FROM STATE AS STATEalias0 ;"
+  },
+  {
+    "question": "what rivers flow through the largest state",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM RIVER AS RIVERalias0 WHERE RIVERalias0.TRAVERSE IN ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "what states border states that border states that border states that border texas",
+    "sql": "SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 , BORDER_INFO AS BORDER_INFOalias1 , BORDER_INFO AS BORDER_INFOalias2 , BORDER_INFO AS BORDER_INFOalias3 WHERE BORDER_INFOalias1.BORDER = BORDER_INFOalias0.STATE_NAME AND BORDER_INFOalias2.BORDER = BORDER_INFOalias1.STATE_NAME AND BORDER_INFOalias3.BORDER = BORDER_INFOalias2.STATE_NAME AND BORDER_INFOalias3.STATE_NAME = \"texas\" ;"
+  },
+  {
+    "question": "how many states border on the state whose capital is boston",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.CAPITAL = \"boston\" ) ;"
+  },
+  {
+    "question": "what are the major cities in the states through which the major river in virginia runs",
+    "sql": "SELECT CITYalias0.CITY_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION > 150000 AND CITYalias0.STATE_NAME IN ( SELECT RIVERalias0.TRAVERSE FROM RIVER AS RIVERalias0 WHERE RIVERalias0.RIVER_NAME IN ( SELECT RIVERalias1.RIVER_NAME FROM RIVER AS RIVERalias1 WHERE RIVERalias1.LENGTH > 750 AND RIVERalias1.TRAVERSE = \"virginia\" ) ) ;"
+  },
+  {
+    "question": "which states does not border texas",
+    "sql": "SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.STATE_NAME NOT IN ( SELECT BORDER_INFOalias0.BORDER FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = \"texas\" ) ;"
+  },
+  {
+    "question": "how many states border the largest state",
+    "sql": "SELECT COUNT( BORDER_INFOalias0.BORDER ) FROM BORDER_INFO AS BORDER_INFOalias0 WHERE BORDER_INFOalias0.STATE_NAME = ( SELECT STATEalias0.STATE_NAME FROM STATE AS STATEalias0 WHERE STATEalias0.AREA = ( SELECT MAX( STATEalias1.AREA ) FROM STATE AS STATEalias1 ) ) ;"
+  },
+  {
+    "question": "which state is the largest city in montana in",
+    "sql": "SELECT CITYalias0.STATE_NAME FROM CITY AS CITYalias0 WHERE CITYalias0.POPULATION = ( SELECT MAX( CITYalias1.POPULATION ) FROM CITY AS CITYalias1 WHERE CITYalias1.STATE_NAME = \"montana\" ) AND CITYalias0.STATE_NAME = \"montana\" ;"
+  },
+  {
+    "question": "what is the longest river in the state with the highest point",
+    "sql": "SELECT RIVERalias0.RIVER_NAME FROM HIGHLOW AS HIGHLOWalias0 , RIVER AS RIVERalias0 WHERE HIGHLOWalias0.HIGHEST_ELEVATION = ( SELECT MAX( HIGHLOWalias1.HIGHEST_ELEVATION ) FROM HIGHLOW AS HIGHLOWalias1 ) AND RIVERalias0.TRAVERSE = HIGHLOWalias0.STATE_NAME ORDER BY RIVERalias0.LENGTH DESC LIMIT 1 ;"
+  }
+]
