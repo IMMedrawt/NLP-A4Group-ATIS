@@ -7,6 +7,14 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.utils.class_weight import compute_class_weight 
 from sklearn.feature_extraction.text import CountVectorizer
 
+def generate_positional_encoding(max_len, dim):
+    pe = torch.zeros(max_len, dim)
+    position = torch.arange(0, max_len, dtype=torch.float32).unsqueeze(1)
+    div_term = torch.exp(torch.arange(0, dim, 2).float() * (-math.log(10000.0) / dim))
+    pe[:, 0::2] = torch.sin(position * div_term)
+    pe[:, 1::2] = torch.cos(position * div_term)
+    return pe.unsqueeze(0)
+
 # Linear Classifier (Logistic Regression)
 class LinearClassifier:
     def __init__(self):
@@ -245,3 +253,43 @@ class TransformerTextClassifier:
             logits = self.model(X_tensor)
             preds = torch.argmax(logits, dim=1)
         return self.label_encoder.inverse_transform(preds.numpy())
+
+
+    def generate_positional_encoding(max_len, dim):
+        pe = torch.zeros(max_len, dim)
+        pos = torch.arange(0, max_len, dtype=torch.float32).unsqueeze(1)
+        div = torch.exp(torch.arange(0, dim, 2).float() * (-math.log(10000.0) / dim))
+        pe[:, 0::2] = torch.sin(pos * div)
+        pe[:, 1::2] = torch.cos(pos * div)
+        return pe.unsqueeze(0)
+
+class TransformerSeq2Seq(nn.Module):
+    def __init__(self, src_vocab_size, tgt_vocab_size, d_model=256, nhead=4, num_layers=3, dim_feedforward=512, max_len=100, pad_idx=0):
+        super().__init__()
+        self.src_embed = nn.Embedding(src_vocab_size, d_model, padding_idx=pad_idx)
+        self.tgt_embed = nn.Embedding(tgt_vocab_size, d_model, padding_idx=pad_idx)
+        self.pos_enc = nn.Parameter(generate_positional_encoding(max_len, d_model), requires_grad=False)
+
+        self.transformer = nn.Transformer(
+            d_model=d_model,
+            nhead=nhead,
+            num_encoder_layers=num_layers,
+            num_decoder_layers=num_layers,
+            dim_feedforward=dim_feedforward,
+            batch_first=True
+        )
+
+        self.output_proj = nn.Linear(d_model, tgt_vocab_size)
+        self.pad_idx = pad_idx
+
+    def forward(self, src, tgt):
+        src_mask = (src == self.pad_idx)
+        tgt_mask = self._generate_square_subsequent_mask(tgt.size(1)).to(src.device)
+        src_embed = self.src_embed(src) + self.pos_enc[:, :src.size(1), :]
+        tgt_embed = self.tgt_embed(tgt) + self.pos_enc[:, :tgt.size(1), :]
+        out = self.transformer(src_embed, tgt_embed, src_key_padding_mask=src_mask, tgt_mask=tgt_mask)
+        return self.output_proj(out)
+
+    def _generate_square_subsequent_mask(self, sz):
+        return torch.triu(torch.ones(sz, sz) * float('-inf'), diagonal=1)
+    
